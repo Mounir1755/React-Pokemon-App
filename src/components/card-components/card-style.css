@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+.pokemon-card {
+    background: rgba(223, 223, 223, 0.274);
+    
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    box-shadow: 0 4px 6px #00000038;
+
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 10px;
+
+    margin: 10px;
+    margin-bottom: 40px !important;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-name-card {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+    color: rgb(0, 0, 0);
+}
+
+.pokemon_details_button {
+    background: rgba(223, 223, 223, 0.274);
+
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    box-shadow: 0 4px 6px #00000038;
+
+    border: 2px solid #0027a8 !important;
+    border-radius: 10px;
+
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+}
+
+.pokemon_favorite_button {
+    background: rgba(223, 223, 223, 0.274);
+
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    box-shadow: 0 4px 6px #00000038;
+
+    border: 2px solid rgb(255, 0, 0) !important;
+    border-radius: 10px;
+
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+}
+
+.card_icon {
+    padding-bottom: 5px;
+    height: 40px;
+}

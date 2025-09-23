@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+.navbar {
+    background: rgba(221, 221, 221, 0.26);
+    border-radius: 16px;
+    margin: 10px;
+    box-shadow: 0 4px 30px #eeff0038;
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgb(255, 255, 0);
+    margin-bottom: 40px !important;
+}
+
+.nav-link {
+    color: rgb(45, 45, 255) !important;
+    font-size: 20px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+  width: 150px;
+  height: 70px;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../assets/hamburger-menu.svg);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        height: 40px;
+    }
+}
