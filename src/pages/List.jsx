@@ -1,5 +1,5 @@
 import Card from "../components/card-components/card";
-
+import './list-page.css'
 function List() {
 
   return (
