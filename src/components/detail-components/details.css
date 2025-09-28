@@ -1,0 +1,8 @@
+/* layout will be prettier in the next update */
+.carousel-item {
+    background: rgba(221, 221, 221, 0.26);
+    box-shadow: 0 4px 30px #50505038;
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgb(255, 255, 255);
+}

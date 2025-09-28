@@ -1,5 +1,5 @@
 import Home from "../pages/home.jsx";
-import Details from "../pages/details.jsx";
+import Details from "../components/detail-components/Details.jsx";
 import Favorites from "../pages/favorites.jsx";
 import List from "../pages/list.jsx";
 import Teams from "../pages/teams.jsx";
@@ -11,7 +11,7 @@ function Routing() {
       <nav>
         <Routes>
            <Route path="/home" element={<Home />} />
-           <Route path="/details" element={<Details />} />
+           <Route path="/details/:id" element={<Details />} />
            <Route path="/list" element={<List />} />
            <Route path="/favorites" element={<Favorites />} />
            <Route path="/teams" element={<Teams />} />
