@@ -17,7 +17,7 @@ function Card() {
             <PokemonImg pokemon={p} />
             <div className="buttons-pokemon-card">
               <DetailsButton id={p.id} />
-              <FavoriteButton pokemon={p} />
+              <FavoriteButton id={p.id} />
             </div>
           </div>
         </div>

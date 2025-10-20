@@ -1,8 +1,8 @@
 // layout will be more pretty in the next update
 
 // import data fetched from the API
-import usePokemonDetails from "./fetch_details";
-import './details.css';
+import usePokemonDetails from "../components/detail-components/fetch_details";
+import '../components/detail-components/details.css';
 
 function Details() {
   const pokemon = usePokemonDetails();

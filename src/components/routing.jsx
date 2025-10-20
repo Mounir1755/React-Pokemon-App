@@ -1,5 +1,5 @@
 import Home from "../pages/home.jsx";
-import Details from "../components/detail-components/Details.jsx";
+import Details from "../pages/Details.jsx";
 import Favorites from "../pages/favorites.jsx";
 import List from "../pages/list.jsx";
 import Teams from "../pages/teams.jsx";
