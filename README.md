@@ -20,7 +20,7 @@ A simple React application built with **Vite** that fetches data from the [Poké
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mounir1755/React-Pokemon-App/.git
+   git clone https://github.com/Mounir1755/React-Pokemon-App.git
 2. Install dependencies:
     ```bash
     npm install
