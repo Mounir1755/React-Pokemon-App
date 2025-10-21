@@ -1,7 +1,8 @@
+import NewTeam from '../components/team-components/new_team'
 function Teams() {
   return (
     <>
-    welkom op de Teams pagina
+      <NewTeam />
     </>
   )
 }
