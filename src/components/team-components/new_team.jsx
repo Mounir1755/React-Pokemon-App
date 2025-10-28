@@ -12,18 +12,25 @@
 // ***********************************************************
 
 function NewTeam () {
-    const handelNewTeam = (e) => {
-        e.preventDefault();
-
-        const teamName = document.getElementById('d1').value.trim();
-
-        localStorage.setItem(teamName, JSON.stringify([]));
+    const CreateNewTeam = (e) => {
+                       // get value from a element by id and trim
+        const teamName = document.getElementById('input').value.trim(); // <- trim = remove unnesecary spaces at the start and end
+            // check if teamName isnt empty
+            if (teamName === "") {
+                e.preventDefault() // <- stops refresh of the page after submit
+                console.log("Vul eerst iets in!")
+            } else {
+                console.log(`Team: team_${teamName} is aangemaakt!`)
+            }
+        
+        // make new item in localstorage with teamName
+        localStorage.setItem(`team_${teamName}`, JSON.stringify([]));
     };
 
     return(
         <>
-            <form onSubmit={handelNewTeam}>
-                <input type="text" id="d1"/>
+            <form onSubmit={CreateNewTeam}>
+                <input type="text" id="input"/>
                 <button type="submit" className="btn btn-success ms-2">
                     klik dan als je kan
                 </button>
